@@ -36,6 +36,16 @@ VALUES  (1, 'Hot', 2002),
 	(7, 'Strasti', 2005),
 	(8, 'I`am Best', 2003);
 
+INSERT INTO albums_executor (executor_id, album_id)
+VALUES  (1,6),
+	(2,2),
+	(3,3),
+	(4,7),
+	(5,8),
+	(6,5),
+	(7,1),
+	(8,4);
+
 INSERT INTO track (id, name, lenght, album_id)
 VALUES  (1, 'Oh my god', 3.21, 3),
 	(2, 'Krik Dushi', 2.51, 7),
@@ -52,16 +62,6 @@ VALUES  (1, 'Oh my god', 3.21, 3),
 	(13, 'Dikiy Kaban', 3.01, 4),
 	(14, 'Ment', 5.00, 8),
 	(15, 'Kabak', 3.25, 5);
-
-INSERT INTO albums_executor (executor_id, album_id)
-VALUES  (1,6),
-	(2,2),
-	(3,3),
-	(4,7),
-	(5,8),
-	(6,5),
-	(7,1),
-	(8,4);
 
 INSERT INTO collection (id, name, years)
 VALUES  (1, 'Live in Music', 2020),
